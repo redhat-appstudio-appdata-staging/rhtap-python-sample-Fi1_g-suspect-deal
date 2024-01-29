@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rhtap-python-sample
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rarnaud-tenant/rhtap-python-sample/rhtap-python-sample@sha256:8910f71b42369885fb3b7de9f19ae71f94642d0f645a1b899b591c2196e46d16
+        name: my-python
+        resources: {}
+status: {}
