@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rarnaud-tenant/rhtap-python-sample/devfile-sample-python-basic@sha256:8d66fdbdfb1979421926f5b3f5cddc55a7faf4c1ffd9545e25131980eb3506c7
+        name: my-python
+        resources: {}
+status: {}
