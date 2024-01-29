@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-default-pipeline
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/rarnaud-tenant/rhtap-python-sample/python-default-pipeline@sha256:38760bad848702cc9c93d3164ece53eb98dc232c1a36f465d26e5b33df0885b6
+      - image: quay.io/redhat-user-workloads-stage/rarnaud-tenant/rhtap-python-sample/python-default-pipeline@sha256:91f3c1cb86c01184bff313091f1bfa5e18a573b2b7f4c083f1aa52ea23afa55a
         name: my-python
         ports:
         - containerPort: 8081
