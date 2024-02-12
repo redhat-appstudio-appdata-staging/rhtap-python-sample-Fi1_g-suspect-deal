@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: python-default-pipeline
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
